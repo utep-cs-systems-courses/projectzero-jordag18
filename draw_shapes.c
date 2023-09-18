@@ -26,3 +26,9 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//Prints an arrow of specificed height using the print_square and print_triangle functions
+void print_arrow()
+{
+  print_triangle(5, 7);
+  print_square(10, 5);
+}
